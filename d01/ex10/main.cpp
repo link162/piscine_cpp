@@ -6,7 +6,7 @@
 /*   By: ybuhai <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/03 17:48:23 by ybuhai            #+#    #+#             */
-/*   Updated: 2019/12/03 18:04:30 by ybuhai           ###   ########.fr       */
+/*   Updated: 2019/12/03 18:42:34 by ybuhai           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,11 @@
 int main(int argc, char **argv)
 {
 	std::string s;
-	if (1 == argc)
+	if (1 == argc || (argc == 2 && (!std::string(argv[1]).compare("-") || !std::string(argv[1]).compare("--"))))
 		while(std::cin)
 		{
 			getline(std::cin, s);
+			if (std::cin)
 			std::cout << s << std::endl;
     	}
 	else
