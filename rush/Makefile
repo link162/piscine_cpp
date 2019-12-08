@@ -6,7 +6,7 @@
 #    By: jbalestr <jbalestr@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/01/11 12:08:17 by jbalestr          #+#    #+#              #
-#    Updated: 2019/12/08 17:15:07 by ybuhai           ###   ########.fr        #
+#    Updated: 2019/12/08 19:53:24 by ybuhai           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 
 NAME =	ft_retro
 CC =	clang++
-FLAGS =	-Wall -Wextra -Werror
+FLAGS =	
 LIB =	-lncurses
 SDIR =	src/
 ODIR =	obj/

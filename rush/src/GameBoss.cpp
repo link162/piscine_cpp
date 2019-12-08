@@ -103,14 +103,12 @@ void GameBoss::update(float diff)
 }
 void GameBoss::display()
 {
-	std::cout << "start\n";
 	user->display();
 	for (int i = 0; i < num_bullets; i++)
 		bullet[i]->display();
 	for (int i = 0; i < num_enemies; i++)
 		enemy[i]->display();
 	refresh();
-	std::cout << "end\n";
 }
 void GameBoss::start()
 {
